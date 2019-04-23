@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@grapecity/spread-excelio": "^12.1.0",
+    "@grapecity/spread-sheets-react": "^12.1.0",
+    "antd": "^3.16.3",
+    "antd-mobile": "^2.2.11",
+    "dva": "^2.4.1",
+    "dva-cli": "^0.10.0",
+    "dva-loading": "^2.0.6",
+    "echarts": "^4.2.1",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "history": "^4.7.2",
+    "jquery": "^3.4.0",
+    "js-cookie": "^2.2.0",
+    "rc-queue-anim": "^1.6.12",
+    "react": "^16.2.0",
+    "react-bmap": "^1.0.96",
+    "react-dom": "^16.2.0",
+    "react-load-script": "0.0.6",
+    "redocx": "^1.1.4",
+    "xlsx": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0",
+    "redbox-react": "^1.4.3",
+    "roadhog": "^2.0.0"
+  },
+  "proxy": "http://localhost:8080/"
+}

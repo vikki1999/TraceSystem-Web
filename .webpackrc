@@ -1,0 +1,12 @@
+{
+    "extraBabelPlugins": [
+        ["import", { "libraryName": "antd", "style": "css" }],
+        "transform-remove-strict-mode"
+    ],
+    
+    "publicPath": "/",
+    "externals": {
+        "BMap": "BMap",
+        "BMapLib": "BMapLib"
+    }
+}

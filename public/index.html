@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TraceSystem</title>
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fqQNsz9Hn1b5Q8doLRT1alyjG93KhzrW"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/library/CurveLine/1.5/src/CurveLine.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="src/components/FileSaver.js"></script>
+  <script src="src/components/jquery.wordexport.js"></script>
+  <script>
+      window.saveAs = saveAs;
+      window.wordExport = function(ele,name){ $(ele).wordExport(name);};
+  </script>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <div id="root"></div>
+  <script src="index.js"></script>
+
+</body>
+</html>
